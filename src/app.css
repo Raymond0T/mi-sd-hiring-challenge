@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#app{
+    min-height: 100vh;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(31, 31, 31);
+    padding-top: 2rem;
+}
+
+.Input-Container input{
+    font-size: 18px;
+    font-style: italic;
+    padding: 7px;
+    border-radius: 5px;
+    border: 0;
+}
+
+.Input-Container button{
+    color: white;
+    font-size: 18px;
+    padding: 7px;
+    border-radius: 5px;
+    border: 0;
+    background-color: rgb(33, 155, 33);
+    cursor: pointer;
+}
+.Display-Container{
+    margin: 3rem;
+    padding: 1rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+.Weather-Container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.day{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 1rem 2rem;
+}

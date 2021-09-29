@@ -4,11 +4,61 @@
 <head>
   <title>Movable Ink</title>
   <meta charset="UTF-8" />
+  <link rel="stylesheet" type="text/css" href="src/app.css"/>
 </head>
-
 <body>
-  <div id="app"></div>
+  <div id="app">
+
+    <div class="Input-Container">
+      <input 
+        type="number" 
+        id="location" 
+        placeholder="Enter Zip Code"/>
+      <button 
+        type="button"
+        id="submit-btn">
+        Submit
+      </button>
+    </div>
+
+    <div class="Display-Container">
+      <h1 id="city"></h1>
+      <div id="forecast" class="Weather-Container">
+        
+        <!-- 
+        <div class="day">
+          <h3>Today</h3>
+          <img src="img/cloudy.png">
+          <p>
+            Clear
+            <br />
+            95* / 69*F
+          </p>
+        </div>
+        <div class="day">
+          <h3>Thursday</h3>
+          <img src="img/cloudy.png">
+          <p>
+            Clear
+            <br />
+            95* / 69*F
+          </p>
+        </div>
+        <div class="day">
+          <h3>Friday</h3>
+          <img src="img/cloudy.png">
+          <p>
+            Clear
+            <br />
+            95* / 69*F
+          </p>
+        </div>
+        -->
+      </div>
+    </div>
+  </div>
+
+  <script src="src/app.js"></script>
 </body>
-<script src="src/app.js"></script>
 
 </html>
